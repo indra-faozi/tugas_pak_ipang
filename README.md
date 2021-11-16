@@ -4,5 +4,14 @@ Indra Faozi 2019 804 089 SI 5A <br>
 Berikut tugas JSP Pembayaran Uang Kas Bulanan <br><br>
 Cara untuk uji test website sebagai  berikut: <br>
 
-1. Clone atau download repositori ini ke PC anda
-2. 
+1. Pastikan sudah terinstall XAMPP
+2. Download repositori ini ke PC anda dan pindahkan ke dalam folder xampp/tomcat/webapps
+3. Jalankan Apache dan juga MySql, buka phpMyAdmin kemudian buat database dengan nama pembayaran_kas
+4. Import database pembayaran_kas.sql yang ada di folder pembayaran_kas/database yang anda download tadi
+5. Setelah berhasil import database, tutup jendela phpMyadmin di browser, kemudian matikan Apache dan jalankan tomcat di XAMPP
+6. Silahkan buka localhost:8080/pembayaran_kas di browser
+7. Berhasil, web sudah bisa digunakan
+
+
+Thanks,
+Indra
