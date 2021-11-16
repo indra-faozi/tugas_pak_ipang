@@ -31,10 +31,10 @@
                     <td>
                         <select name="kelas" required>
                             <option value="">-- KELAS --</option>
-                            <option value="SI 5A">SI 1A</option>
-                            <option value="SI 5A">SI 2A</option>
-                            <option value="SI 5A">SI 3A</option>
-                            <option value="SI 5A">SI 4A</option>
+                            <option value="SI 1A">SI 1A</option>
+                            <option value="SI 2A">SI 2A</option>
+                            <option value="SI 3A">SI 3A</option>
+                            <option value="SI 4A">SI 4A</option>
                             <option value="SI 5A">SI 5A</option>
                         </select>
                     </td>
@@ -43,6 +43,12 @@
                     <td>Nominal</td>
                     <td>:</td>
                     <td><input type="number" min="1" name="nominal" value="<%= rs.getString("nominal")%>" required></td>
+                </tr>
+                <tr>
+                    <td>Tanggal_bayar</td>
+                    <td>:</td>
+                    <td><input type="date" value="<%= rs.getString("tanggal_bayar")%>" name="tanggal_bayar" required>
+                    </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>

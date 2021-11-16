@@ -20,6 +20,7 @@
                     <th>Nama</th>
                     <th>Kelas</th>
                     <th>Nominal</th>
+                    <th>Tanggal Bayar</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
@@ -34,6 +35,7 @@
                     <td><%= rs.getString("nama")%></td>
                     <td><%= rs.getString("kelas")%></td>
                     <td><%= rs.getString("nominal")%></td>
+                    <td><%= rs.getString("tanggal_bayar")%></td>
                     <td><a href="hapus.jsp?id=<%= rs.getString("id")%>">Hapus</a>|<a
                             href="form_ubah.jsp?id=<%= rs.getString("id")%>">Ubah</a></td>
                 </tr>
